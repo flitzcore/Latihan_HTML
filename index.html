@@ -1,66 +1,45 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-   <style>
-       .container {
-           display: flex;
- 
-           /* Properti lainnya */
-           width: 800px;
-           height: 250px;
-           background-color: #11C5C6;
-           border: 2px solid black;
-           padding: 20px;
-           border-radius: 10px;
-           margin: 0 auto;
-       }
-       .col {
-           display: flex;
-           flex-direction: column;
- 
-           /* Properti lainnya */
-           width: 800px;
-           height: 800px;
-           background-color: #11C5C6;
-           border: 2px solid black;
-           padding: 20px;
-           border-radius: 10px;
-           margin: 0 auto;
-       }
-       .box {
-           flex-grow: 1;
- 
-           /* properti lainnya */
-           background-color: #FBDD1C;
-           margin: 5px;
-           border: 2px solid black;
-           border-radius: 10px;
-       }
-       .first {
-           flex-grow: 1;
-       }
-       .second {
-           flex-grow: 2;
-       }
- 
-       .third {
-           flex-grow: 15;
-       }
-   </style>
-</head>
-<body>
-    <div class="col">
-        <div class="container">
-            <div class="box third"></div>
-            <div class="box second"></div>
-            <div class="box"></div>
-         </div>
-         
-             <div class="box third"></div>
-             <div class="box second"></div>
-             <div class="box"></div>
-          
-    </div>
-
-</body>
+  <head>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><img src="assets/images/logo.png" id="logo_home" /></li>
+          <li><a href="#about_me_tab">About Me</a></li>
+          <li><a href="#acv_tab">Achievement</a></li>
+          <li><a href="#contact_tab">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="homepage">
+        <img src="assets/images/foto.png" id="foto" />
+      </div>
+      <div id="about_me_tab"></div>
+    </main>
+  </body>
 </html>
+<!--
+<div class="home_container">
+    <div class="heading">
+      <div class="heading_row">
+          <nav>
+              <ul>
+                  <li><a href="#sejarah" class="menu">About Me</a></li>
+                  <li><a href="#geografis">Achievement</a></li>
+                  <li><a href="#wisata">Contact</a></li>
+                </ul>
+          </nav>
+          
+        </div>
+      </div>
+    </div>
+    <div class="head_body">
+      <img src="assets/images/foto.png" id="foto" />
+    </div>
+  </div>
+  <div class="about_me"></div>
+  !-->

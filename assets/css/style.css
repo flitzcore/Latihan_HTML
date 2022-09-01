@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap");
+header {
+  display: inline; /*flex;
+  align-items: flex-end;
+  flex: 1;*/
+}
+nav li {
+  display: inline;
+  list-style-type: none;
+  margin-right: 20px;
+}
+nav a {
+  color: white;
+  margin: auto 10px 0px auto;
+  list-style-type: none;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  text-decoration: none;
+}
+nav {
+  background-color: #131925;
+  padding: 5px;
+  margin: 0;
+  position: sticky;
+  top: 0;
+}
+#logo_home {
+  height: 90px;
+}
+.homepage {
+  height: 960px;
+  background: -webkit-linear-gradient(
+    -96.158001082428deg,
+    rgba(19, 25, 37, 1) 0%,
+    rgba(25, 32, 47, 1) 75%
+  );
+}
+#about_me_tab {
+  height: 960px;
+}
+
+/*
+.home_container {
+  direction: column;
+  margin: 0;
+  padding: 0;
+  height: 960px;
+  background: rgba(255, 255, 255, 0);
+  background: -webkit-linear-gradient(
+    -96.158001082428deg,
+    rgba(19, 25, 37, 1) 0%,
+    rgba(25, 32, 47, 1) 75%
+  );
+}
+
+.heading_row {
+  margin: 10px 10px auto auto;
+  height: 100px;
+  display: inline;
+}
+.menu {
+  color: #bf2051;
+  margin: auto 10px 0px auto;
+  list-style-type: none;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+img {
+  display: block;
+  margin: 0px;
+  border: none;
+  padding: 0px;
+}
+.heading {
+  position: sticky;
+  top: 0;
+  right: 0;
+  left: auto;
+  margin: 0;
+  height: 100px;
+  background-color: rgba(25, 32, 47, 1) 75%;
+}
+
+
+.about_me {
+  height: 960px;
+  background: white;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+
+    
+    width: 800px;
+    height: 800px;
+    background-color: #11C5C6;
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+.box {
+    flex-grow: 1;
+
+    background-color: #FBDD1C;
+    margin: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.first {
+    flex-grow: 1;
+}
+.second {
+    flex-grow: 2;
+}
+
+.third {
+    flex-grow: 15;
+}*/
