@@ -123,7 +123,128 @@ p {
   width: 60%;
 }
 #acv_page {
-  height: 50vh;
+  height: 75vh;
   text-align: center;
   background-color: rgb(233, 227, 227);
+}
+#piala {
+  height: 20%;
+  float: left;
+  margin: 0 10vh 5vh 10vh;
+}
+#acv {
+  padding-top: 5%;
+}
+#acv_tab {
+  display: block;
+  position: relative;
+  top: -25vh;
+  visibility: hidden;
+}
+#acv_article {
+  margin: 30px auto 50px auto;
+}
+#ul_acv {
+  text-align: left;
+  top: auto;
+  bottom: auto;
+  left: 50px;
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  text-align: left;
+  list-style: none;
+  font-size: 32px;
+}
+blockquote {
+  padding: 0 10% 0 10%;
+}
+#story_page {
+  height: 100vh;
+  text-align: center;
+  background-color: white;
+}
+#story {
+  padding-bottom: 5%;
+}
+#story_tab {
+  display: block;
+  position: relative;
+  top: -25vh;
+  visibility: hidden;
+}
+#foto_story {
+  height: 20%;
+  float: left;
+  margin: 0 10vh 5vh 10vh;
+  text-align: left;
+
+  color: #bf2051;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+}
+#foto_story li {
+  list-style-type: none;
+}
+#p_story {
+  margin: 0 auto 15% auto;
+  width: 80%;
+  text-align: justify;
+}
+#contact_page {
+  height: 70vh;
+  text-align: center;
+  background-color: #020c20;
+}
+#contact_int {
+  padding-top: 10%;
+  color: #bf2051;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+}
+#contact_me {
+  margin: 2% auto auto auto;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 48px;
+}
+#contact_page ul {
+  list-style-type: none;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 150%;
+}
+#foot {
+  background-color: #131925;
+  padding: 5px;
+  margin: 0;
+  position: sticky;
+  bottom: 0;
+}
+footer {
+  display: inline;
+  text-align: left;
+}
+#porto {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+}
+#ig {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+}
+#contact_tab {
+  display: block;
+  position: relative;
+  top: -25vh;
+  visibility: hidden;
 }
