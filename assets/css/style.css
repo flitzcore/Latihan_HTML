@@ -1,6 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&family=Roboto:wght@300;400;500&display=swap");
+
 header {
-  display: inline; /*flex;
+  display: inline;
+  text-align: right; /*flex;
   align-items: flex-end;
   flex: 1;*/
 }
@@ -9,14 +11,21 @@ nav li {
   list-style-type: none;
   margin-right: 20px;
 }
+nav ul {
+  margin: 10px 0 10px 0;
+}
 nav a {
   color: white;
-  margin: auto 10px 0px auto;
+  margin-bottom: 30px;
+  font-size: 20px;
   list-style-type: none;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   text-decoration: none;
+}
+nav a:hover {
+  font-weight: bold;
 }
 nav {
   background-color: #131925;
@@ -26,97 +35,95 @@ nav {
   top: 0;
 }
 #logo_home {
-  height: 90px;
+  margin-left: 35px;
+  height: 70px;
+  bottom: 10px;
 }
 .homepage {
-  height: 960px;
+  display: flex;
+  align-items: flex-start;
+
+  height: 90vh;
   background: -webkit-linear-gradient(
     -96.158001082428deg,
     rgba(19, 25, 37, 1) 0%,
     rgba(25, 32, 47, 1) 75%
   );
 }
-#about_me_tab {
-  height: 960px;
-}
 
-/*
-.home_container {
-  direction: column;
-  margin: 0;
+#foto {
+  margin: auto 70px 0 0;
+  bottom: 0px;
+  left: 0px;
+  width: 855px;
+  height: 839px;
+}
+.home_info {
+  margin: auto auto auto 0;
+}
+#home_ul {
+  left: 0;
+  top: auto;
+  bottom: auto;
+  margin: auto auto auto 0;
   padding: 0;
-  height: 960px;
-  background: rgba(255, 255, 255, 0);
-  background: -webkit-linear-gradient(
-    -96.158001082428deg,
-    rgba(19, 25, 37, 1) 0%,
-    rgba(25, 32, 47, 1) 75%
-  );
-}
-
-.heading_row {
-  margin: 10px 10px auto auto;
-  height: 100px;
-  display: inline;
-}
-.menu {
-  color: #bf2051;
-  margin: auto 10px 0px auto;
+  text-decoration: none;
   list-style-type: none;
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-weight: 400;
 }
-img {
+#hi {
+  color: #bf2051;
+  font-size: 84px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  line-height: 130%;
+}
+#im {
+  color: #bf2051;
+  font-size: 64px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+#fc {
+  color: white;
+  font-size: 64px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+#wadev {
+  color: #bf2051;
+  font-size: 40px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+.li_info {
+  line-height: 220%;
+}
+#about_me_page {
+  height: 60vh;
+  text-align: center;
+}
+#am_tab {
   display: block;
-  margin: 0px;
-  border: none;
-  padding: 0px;
+  position: relative;
+  top: -25vh;
+  visibility: hidden;
 }
-.heading {
-  position: sticky;
-  top: 0;
-  right: 0;
-  left: auto;
-  margin: 0;
-  height: 100px;
-  background-color: rgba(25, 32, 47, 1) 75%;
+h1 {
+  margin: 10% auto auto auto;
+  color: #bf2051;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
 }
-
-
-.about_me {
-  height: 960px;
-  background: white;
+p {
+  margin: 10% auto 15% auto;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  text-align: center;
+  font-size: x-large;
+  width: 60%;
 }
-
-.col {
-    display: flex;
-    flex-direction: column;
-
-    
-    width: 800px;
-    height: 800px;
-    background-color: #11C5C6;
-    border: 2px solid black;
-    padding: 20px;
-    border-radius: 10px;
-    margin: 0 auto;
+#acv_page {
+  height: 50vh;
+  text-align: center;
+  background-color: rgb(233, 227, 227);
 }
-.box {
-    flex-grow: 1;
-
-    background-color: #FBDD1C;
-    margin: 5px;
-    border: 2px solid black;
-    border-radius: 10px;
-}
-.first {
-    flex-grow: 1;
-}
-.second {
-    flex-grow: 2;
-}
-
-.third {
-    flex-grow: 15;
-}*/
